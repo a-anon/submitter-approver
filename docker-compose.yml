@@ -1,0 +1,12 @@
+php:
+  build: images/php
+  volumes:
+    - ./site:/site
+  links: [selenium]
+selenium:
+  image: selenium/standalone-firefox-debug
+  volumes:
+    - /dev/shm:/dev/shm
+  ports:
+    - "6900:5900"
+    - "6444:4444"
