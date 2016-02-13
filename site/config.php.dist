@@ -1,0 +1,4 @@
+<?php
+define('REDDIT_USERNAME', 'CHANGE ME');
+define('REDDIT_PASSWORD', 'CHANGE ME');
+define('SUBREDDIT', 'CHANGE ME');
